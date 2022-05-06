@@ -1,0 +1,62 @@
+.examhome{
+    display: none;
+}
+
+.examhome .dashboard-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.examhome .dashboard-head h1{
+    cursor: pointer;
+}
+
+.examhome .dashboard-head h1:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.head-date{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.head-time{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.exam-check{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.course-img{
+    height: auto;
+}
+
+.content-list{
+    display: flex;
+}
+
+.content-list img{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.content-list p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}

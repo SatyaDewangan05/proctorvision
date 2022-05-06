@@ -1,0 +1,45 @@
+.login{
+    display: none;
+}
+
+.login-auth input{
+    display: block;
+    width: 256px;
+    margin: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.short-content{
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.reset p{
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.reset p:hover{
+    color: rgb(208, 208, 208);
+}
