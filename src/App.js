@@ -5,6 +5,8 @@ import Login from "./components/Login";
 import Tutorial from "./components/Tutorial";
 import Dashboard from "./components/Dashboard";
 import Examhome from "./components/Examhome";
+import Settings from "./components/Settings";
+import Exam from "./components/Exam";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Tutorial />
       <Dashboard />
       <Examhome />
+      <Settings />
+      <Exam />
     </div>
   );
 }

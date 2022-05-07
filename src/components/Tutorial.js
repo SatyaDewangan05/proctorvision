@@ -4,10 +4,14 @@ import "./Tutorial.css";
 
 let i = 0;
 
+const dashboardPage = () => {
+  document.querySelector(".tutorial").style.display = "none";
+  document.querySelector(".dashboard").style.display = "unset";
+};
+
 const tutorial = () => {
   if (i === 3) {
-    document.querySelector(".tutorial").style.display = "none";
-    return (document.querySelector(".dashboard").style.display = "unset");
+    return dashboardPage();
   }
   if (i === 2) {
     document.querySelector(".tutorial-btn").innerHTML =
@@ -95,7 +99,14 @@ const Tutorial = () => {
             </ul>
           </div>
         </div>
-        <div className="skip">Skip</div>
+        <div
+          className="skip"
+          onClick={() => {
+            dashboardPage();
+          }}
+        >
+          Skip
+        </div>
       </div>
     </div>
   );

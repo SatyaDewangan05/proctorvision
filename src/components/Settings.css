@@ -1,0 +1,96 @@
+.settings{
+    display: none;
+}
+
+.settings-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-user{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.settings-user img{
+    height: 62px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0 25px;
+}
+
+.settings-user p{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.settings-user h5{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+}
+
+.settings-user:hover{
+    opacity: 0.8;
+}
+
+.edit{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.general-settings{
+    margin-top: 20px;
+}
+
+.general-head{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.setting{
+    margin: 20px 0;
+    position: relative;
+}
+
+.setting-list{
+    background-color: #232527;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.setting hr{
+    position: absolute;
+    width: 90%;
+    margin: 0 5%;
+}

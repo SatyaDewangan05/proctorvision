@@ -7,6 +7,11 @@ const examHomePage = () => {
   document.querySelector(".dashboard").style.display = "none";
 };
 
+const settingsPage = () => {
+  document.querySelector(".settings").style.display = "unset";
+  document.querySelector(".dashboard").style.display = "none";
+};
+
 const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -53,7 +58,13 @@ const Dashboard = () => {
                 12th Jan 2021 &#183; 9:00am - 12:00pm
                 <i class="fa-solid fa-bell" style={{ paddingLeft: "14px" }}></i>
               </div>
-              <button className="btn test-btn" style={{ color: "white" }}>
+              <button
+                className="btn test-btn"
+                style={{ backgroundColor: "white" }}
+                onClick={() => {
+                  examHomePage();
+                }}
+              >
                 Join Exam
               </button>
             </div>
@@ -73,7 +84,7 @@ const Dashboard = () => {
             <div
               className="profile"
               onClick={() => {
-                examHomePage();
+                settingsPage();
               }}
             >
               <div>
