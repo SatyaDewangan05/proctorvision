@@ -2,6 +2,12 @@ import React from "react";
 
 import "./Exam.css";
 
+window.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    document.querySelector(".warning-container").style.display = "unset";
+  }, 20000);
+});
+
 const Exam = () => {
   return (
     <div className="exam">
@@ -97,6 +103,34 @@ const Exam = () => {
           <div className="exam-btn">
             <button style={{ opacity: 0.5 }}>{"<"} Previous</button>
             <button>Next {">"}</button>
+          </div>
+        </div>
+        <div className="warning-container">
+          <div className="warning">
+            <h3>Please adjust your camera</h3>
+            <p className="time">12:30pm</p>
+          </div>
+          <div className="warning">
+            <i
+              class="fa-solid fa-circle-exclamation"
+              style={{ color: "#FF5555" }}
+            ></i>
+            <div>
+              <h3 style={{ color: "#FF5555" }}>Warning 1</h3>
+              <p>Warning 1</p>
+            </div>
+            <i class="fa-solid fa-xmark" style={{ color: "#ffffff80" }}></i>
+          </div>
+          <div className="warning">
+            <i
+              class="fa-solid fa-circle-exclamation"
+              style={{ color: "#FFDB5A" }}
+            ></i>
+            <div>
+              <h3 style={{ color: "#FFDB5A" }}>Warning 2</h3>
+              <p>Warning 2</p>
+            </div>
+            <i class="fa-solid fa-xmark" style={{ color: "#ffffff80" }}></i>
           </div>
         </div>
       </div>
